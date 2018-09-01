@@ -2,6 +2,8 @@
 # Public methods: insert, peak, pop
 # private methods: __swap, __floatUp, __bubbleDown
 
+from abc import abstractmethod
+
 class AbstractHeap:
     def __init__(self, items:list=[]):
         self.heap = [None]
